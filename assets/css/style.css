@@ -24,7 +24,7 @@
     column-rule: 0 solid lightblue;
     font-size:20px;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    border-bottom: 0px solid #dddddd;
+    border-bottom: 0 solid #dddddd;
 
 }
 .current {
@@ -36,7 +36,8 @@
 }
 
 .headshot {
-    padding: 1% 20% 1% 31%;
+   float: left;
+    margin-right: 30px;
 
 }
 .project {
@@ -53,8 +54,7 @@
 
 }
 .container {
-    background-image: url("http://magaimg.net/img/5xle.png");
-    background-repeat: repeat;
+    background: url("http://magaimg.net/img/5xle.png") repeat;
     position: absolute;
     z-index: -1;
     width: 1460px;
@@ -115,12 +115,18 @@ footer {
     position: relative;
     width: 100%;
     text-align: center;
-    margin-top:150px;
+    margin-top:320px;
 }
 .cfooter {
     position: sticky;
     position: -webkit-sticky;
-    bottom: 0px;
+    bottom: 0;
     margin-top: 800px;
 }
 /* double footer :(  */
+
+p {
+    text-align: justify;
+
+    margin: 15px 0 100px 15px;
+}
