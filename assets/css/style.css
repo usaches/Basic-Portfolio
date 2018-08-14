@@ -5,7 +5,7 @@
     float:left;
     position:absolute;
     z-index:1;
-    padding:17px;
+    padding:18px;
     margin-bottom: 0;
 
 
@@ -117,6 +117,14 @@ footer {
     text-align: center;
     margin-top:320px;
 }
+/*.wrapper {
+    height: auto !important;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto -105px;
+
+    attempt at sticky footer failed
+}*/
 .cfooter {
     position: sticky;
     position: -webkit-sticky;
@@ -124,7 +132,13 @@ footer {
     margin-top: 800px;
 }
 /* double footer :(  */
-
+/*html, body {
+    heigh: 100%;
+}
+footer, .push {
+    height: 105px;
+    sticky footer attempt again
+}*/
 p {
     text-align: justify;
 
